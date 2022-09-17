@@ -84,7 +84,7 @@ Neste exercício você ira aplicar a equalização do histograma da imagem.
  Vamos ver neste exercicio alguns atributos que podem ser extraídos da imagem, como média, variância e dados do histograma.
 
 #### Instruções
-1) Calcule e mostre o histograma da imagem original.
+1) Calcule e mostre o histograma da imagem original.****
 2) Equalize o histograma da imagem original.
 3) Calcule o histograma da imagem equalizada e mostre.
 4) Utilizando a função ``mean`` da ``numpy``, determine a média dos valores dos pixels da imagem original.
