@@ -1,6 +1,7 @@
 from tensorflow import Variable, keras, ones, matmul
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
 features = [[ 2. , 2., 43.]]
 
 # Initialize bias1
@@ -20,10 +21,10 @@ print("\n dense1's output shape: {}".format(dense1.shape))
 
 # Initialize bias2 and weights2
 bias2 = Variable(1.0)
-weights2 = Variable(ones((2, 2)))
+weights2 = Variable(ones((2, 1)))
 
 # Perform matrix multiplication of dense1 and weights2
-product2 = matmul(features,weights1)
+product2 = matmul(dense1,weights2)
 
 # Apply activation to product2 + bias2 and print the prediction
 prediction = keras.activations.sigmoid(product2 + bias2)
