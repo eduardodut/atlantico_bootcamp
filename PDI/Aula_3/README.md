@@ -1,4 +1,4 @@
-# Atividades de Sala
+****# Atividades de Sala
 > Orientações para execução das atividades de sala.
 
 Esse documento exibe as descrições das questões a serem resolvidas em sala
